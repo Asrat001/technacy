@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title {
+  @apply  text-[25px] text-center sm:text-[35px] text-primaryText sm:py-10 font-semibold;
+}
+.slider{
+  @apply h-[340px]  relative w-[100%] grid  place-items-center overflow-hidden  
+}
+.slide_track{
+  display: flex ;
+  width: calc(300px*20);
+  animation: scroll 30s linear infinite;
+  gap: 20px;
+}
+.slide{
+  @apply h-auto w-[300px] p-10 flex     rounded-lg flex-col items-center  justify-evenly
+}
+
+.slide_track:hover{
+  animation-play-state: paused;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px*9));
+  }
+  
+}
