@@ -2,7 +2,7 @@ import React from 'react'
 
 function Img() {
   return (
-  <div className=' h-auto my-24 '>
+  <div className=' hidden sm:block h-auto my-24 '>
       <div
     className=' bg-bg w-full h-[500px] flex justify-center items-center  flex-col'>
 <h1 className=' text-center text-[40px] text-[#fff] font-medium'>Do you have any project?</h1>

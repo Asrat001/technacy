@@ -11,8 +11,8 @@ import java from "../assets/java.png";
 
 function Techno() {
   return (
-    <div className=" sm:p-20 bg-primary h-auto">
-      <h1 className="text-[25px] text-center sm:text-[35px] text-primaryText py-2 sm:py-3 font-semibold">
+    <div className=" sm:p-20 bg-primary h-auto mt-16 p-2">
+      <h1 className="text-[15px] text-center sm:text-[35px] text-primaryText py-2 sm:py-3 font-semibold">
         Technology Stack
       </h1>
       <div className="flex justify-center items-center py-4">
@@ -20,7 +20,7 @@ function Techno() {
           <div className="w-32 h-1 bg-[#165bee]" />
         </div>
       </div>
-      <p className=" text-center text-primaryText text-[18px] pb-8">
+      <p className=" text-[16px] text-center text-primaryText sm:text-[18px] pb-8">
         One theme that serves as an easy-to-use operational toolkit that meets
         customer's needs.
       </p>

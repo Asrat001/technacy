@@ -16,8 +16,8 @@ function LandingPage() {
 <Wellcome/>
 <Service/>
 <Img/>
-<Blog/>
 <Techno/>
+<Blog/>
 
     </div>
   )

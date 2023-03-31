@@ -10,7 +10,7 @@ function Blog() {
       
     }, [])
   return (
-    <div className="  h-auto p-6 my-[200px] sm:p-10 bg-primary">
+    <div className="  h-auto p-4  sm:p-10 bg-primary">
       <h1 className="text-[25px] text-center sm:text-[35px] text-primaryText sm:py-3 font-semibold">
         our leatest blog
       </h1>
@@ -20,7 +20,7 @@ function Blog() {
         </div>
       </div>
       {/* blog card*/}
-      <div className="grid  sm:grid-cols-3 grid-cols-1 gap-[23px]  sm:p-10 justify-items-center  " data-aos='slide-left' >
+      <div className="grid  sm:grid-cols-3 grid-cols-1 gap-[23px]  sm:p-10 justify-items-center  "  >
       <BlogCard />
       <BlogCard/>
       <BlogCard/>

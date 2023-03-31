@@ -4,10 +4,10 @@ import tech from "../assets/tech.png";
 
 function Baner() {
   return (
-    <div className="p-6  bg-primary  w-full h-screen  sm:p-24  flex justify-center items-center flex-col  ">
+    <div className="p-3  bg-primary  w-full   h-screen   sm:p-24  flex justify-center items-center flex-col  ">
       {/* ontype effect*/}
-      <div className=" space-y-6 sm:p-10 p-3  sm:w-[800px] text-center  ">
-        <span className=" text-[27px]  sm:text-[50px] text-[#1d6679ab] font-semibold ">
+      <div className=" space-y-6 sm:p-10  sm:w-[800px] text-center  ">
+        <span className=" text-[19px]  sm:text-[50px] text-[#03303b] font-semibold ">
           <Typewriter
             words={[
               "Inovative Techenology",
@@ -24,10 +24,10 @@ function Baner() {
           />
         </span>
         <div>
-          <h1 className="sm:text-[50px] text-[40px] font-bold  text-primaryText  ">
+          <h1 className="sm:text-[50px] text-[20px] font-bold  text-primaryText  ">
             Not only a web presence;
           </h1>
-          <p className=" text-primaryText ">
+          <p className=" text-primaryText text-[15px] ">
             you can also increase interactivity and thus revenue.
           </p>
         </div>

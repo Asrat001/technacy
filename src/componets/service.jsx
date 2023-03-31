@@ -14,8 +14,8 @@ function Service() {
   }, [])
   
   return (
-    <div className="  h-auto p-5 bg-primary">
-    <h1 className="text-[25px] text-center sm:text-[35px] text-primaryText sm:py-3 font-semibold">
+    <div className=" h-auto  sm:h-auto  bg-primary p-3 " >
+    <h1 className=" text-[18px] text-center sm:text-[35px] text-primaryText sm:py-3 font-semibold">
         Services
       </h1>
      <div className="sm:flex sm:justify-center sm:items-center sm:py-4">
@@ -24,56 +24,56 @@ function Service() {
       </div>
      </div>
 
-      <div className="sm:p-10 text-center" data-aos='fade-out'>
-        <h2 className="sm:text-[50px] text-primaryText font-medium text-[25px] py-3">
+      <div className="sm:p-10 text-center my-2" data-aos='fade-out'>
+        <h2 className="sm:text-[50px] text-primaryText font-medium text-[19px] py-3">
           We Offer Creative Services
         </h2>
-        <p>
+        <p className=" text-[13px]">
           We are committed to providing technology-based solutions that are
           efficient and effective.
         </p>
       </div>
-      <div className=" grid sm:grid-cols-4 grid-cols-1 gap-6  sm:p-10 justify-items-center  " data-aos='zoom-in-up'>
-        <div className=" bg-[#fff] shadow-lg shadow-primaryText px-10 py-14">
-          <img src={globe} className="w-12   h-12" />
-          <h1 className=" text-[25px] text-primaryText font-medium ">
+      <div className=" grid sm:grid-cols-4 grid-cols-1 gap-3 sm:p-10 justify-items-center  " >
+        <div className=" bg-[#fff] shadow-lg shadow-primaryText px-6 py-8" data-aos='zoom-in-down'>
+          <img src={globe} className="sm:w-12   sm:h-12 w-8 h-8" />
+          <h1 className=" text-[15px] sm:text-[25px]  text-primaryText font-medium ">
             Web Development
           </h1>
-          <p>
+          <p className=" text-[13px]">
             We build clean website & Apps with beatiful UI for your business. It
             is a huge satisfaction for us to be part of your success!. Order
             Now!
           </p>
         </div>
-        <div className=" bg-[#fff] shadow-lg shadow-primaryText px-10 py-14">
-          <img src={phone} />
-          <h1 className=" text-[25px] text-primaryText font-medium ">
+        <div className=" bg-[#fff] shadow-lg shadow-primaryText px-6 py-8" data-aos='zoom-in-down'>
+          <img src={phone} className="w-8 h-8 sm:w-12 sm:h-12" />
+          <h1 className="  text-[15px] sm:text-[25px] text-primaryText font-medium ">
             Mobile App Development
           </h1>
-          <p>
+          <p className=" text-[13px]">
             We build clean website & Apps with beatiful UI for your business. It
             is a huge satisfaction for us to be part of your success!. Order
             Now!
           </p>
         </div>
-        <div className=" bg-[#fff] shadow-lg shadow-primaryText px-10 py-14">
-          <img src={chart} />
-          <h1 className=" text-[25px] text-primaryText font-medium ">
+        <div className=" bg-[#fff] shadow-lg shadow-primaryText px-6 py-8" data-aos='zoom-in-down'>
+          <img src={chart} className='w-8 h-8 sm:w-12 sm:h-12' />
+          <h1 className=" text-[15px] sm:text-[25px] text-primaryText font-medium ">
             Digital Marketing & SEO Optimisation
           </h1>
-          <p>
+          <p className=" text-[13px]">
             With our digital marketing platform, you'll get the tools and
             insights to take your business to the next level. From SEO and
             content optimization to audience targeting and more, our platform
             offers everything you need for growth. Order Now!
           </p>
         </div>
-        <div className=" bg-[#fff] shadow-lg shadow-primaryText px-10 py-14">
-          <img src={erp} />
-          <h1 className=" text-[25px] text-primaryText font-medium ">
+        <div className=" bg-[#fff] shadow-lg shadow-primaryText px-6 py-8" data-aos='zoom-in-down'>
+          <img src={erp} className='w-8 h-8 sm:w-12 sm:12' />
+          <h1 className=" text-[15px] sm:text-[25px] text-primaryText font-medium ">
             ERP solutions
           </h1>
-          <p>
+          <p className="text-[13px]">
             Streamline your business operations with ERP! Our all-in-one
             software solution provides a comprehensive suite of tools to help
             you run your business more efficiently.Order Now!
