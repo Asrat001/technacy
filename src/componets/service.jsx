@@ -28,7 +28,7 @@ function Service() {
         <h2 className="sm:text-[50px] text-primaryText font-medium text-[19px] py-3">
           We Offer Creative Services
         </h2>
-        <p className=" text-[13px]">
+        <p className=" text-[13px] sm:text-[15px] ">
           We are committed to providing technology-based solutions that are
           efficient and effective.
         </p>
@@ -39,7 +39,7 @@ function Service() {
           <h1 className=" text-[15px] sm:text-[25px]  text-primaryText font-medium ">
             Web Development
           </h1>
-          <p className=" text-[13px]">
+          <p className=" text-[13px] sm:text-[15px]">
             We build clean website & Apps with beatiful UI for your business. It
             is a huge satisfaction for us to be part of your success!. Order
             Now!
@@ -50,7 +50,7 @@ function Service() {
           <h1 className="  text-[15px] sm:text-[25px] text-primaryText font-medium ">
             Mobile App Development
           </h1>
-          <p className=" text-[13px]">
+          <p className=" text-[13px] sm:text-[15px]">
             We build clean website & Apps with beatiful UI for your business. It
             is a huge satisfaction for us to be part of your success!. Order
             Now!
@@ -61,7 +61,7 @@ function Service() {
           <h1 className=" text-[15px] sm:text-[25px] text-primaryText font-medium ">
             Digital Marketing & SEO Optimisation
           </h1>
-          <p className=" text-[13px]">
+          <p className=" text-[13px] sm:text-[15px]">
             With our digital marketing platform, you'll get the tools and
             insights to take your business to the next level. From SEO and
             content optimization to audience targeting and more, our platform
@@ -69,11 +69,11 @@ function Service() {
           </p>
         </div>
         <div className=" bg-[#fff] shadow-lg shadow-primaryText px-6 py-8" data-aos='zoom-in-down'>
-          <img src={erp} className='w-8 h-8 sm:w-12 sm:12' />
+          <img src={erp} className='w-8 h-8 sm:w-14 sm:14' />
           <h1 className=" text-[15px] sm:text-[25px] text-primaryText font-medium ">
             ERP solutions
           </h1>
-          <p className="text-[13px]">
+          <p className="text-[13px] sm:text-[15px]  ">
             Streamline your business operations with ERP! Our all-in-one
             software solution provides a comprehensive suite of tools to help
             you run your business more efficiently.Order Now!

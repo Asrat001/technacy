@@ -37,7 +37,7 @@ function Wellcome() {
             <h1 className=" text-primaryText text-[16px] sm:text-[30px] ">
               about us
             </h1>
-            <p className=" text-[12px]">
+            <p className=" text-[12px] sm:text-[16px] text-primaryText">
               We are a software development company situated in Addis Ababa,
               Ethiopia, dedicated to guiding customers through the next phase of
               business innovation powered by technology and delivering
@@ -57,7 +57,7 @@ function Wellcome() {
               <h1 className=" text-primaryText text-[16px] sm:text-[30px]">
                 why us
               </h1>
-              <p className=" text-[12px]">
+              <p className=" text-[12px] sm:text-[16px]  text-primaryText">
                 As our name suggests, we seek to deliver projects that
                 demonstrate a thorough understanding of technology in terms of
                 conceptualization, design, development, and implementation,

@@ -6,6 +6,8 @@ import Service from './service'
 import Img from './img'
 import Techno from './techno'
 import Blog from './blog'
+import Contact from './contact'
+import Footer from './footer'
 
 function LandingPage() {
   return (
@@ -18,6 +20,10 @@ function LandingPage() {
 <Img/>
 <Techno/>
 <Blog/>
+<Contact/>
+<Footer/>
+
+
 
     </div>
   )

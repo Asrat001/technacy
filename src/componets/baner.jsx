@@ -1,13 +1,20 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import tech from "../assets/tech.png";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Baner() {
   return (
     <div className="p-3  bg-primary  w-full   h-screen   sm:p-24  flex justify-center items-center flex-col  ">
       {/* ontype effect*/}
       <div className=" space-y-6 sm:p-10  sm:w-[800px] text-center  ">
-        <span className=" text-[19px]  sm:text-[50px] text-[#03303b] font-semibold ">
+        <h1 className="sm:text-[50px] text-[25px] font-bold  text-primaryText  ">
+          Not only a web presence;
+        </h1>
+
+        <span className=" text-[19px]  sm:text-[35px] text-[#03303b] font-semibold ">
           <Typewriter
             words={[
               "Inovative Techenology",
@@ -23,13 +30,30 @@ function Baner() {
             delaySpeed={1000}
           />
         </span>
-        <div>
-          <h1 className="sm:text-[50px] text-[20px] font-bold  text-primaryText  ">
-            Not only a web presence;
-          </h1>
-          <p className=" text-primaryText text-[15px] ">
-            you can also increase interactivity and thus revenue.
+        <p className=" text-primaryText text-[15px] font-medium ">
+          you can also increase interactivity and thus revenue.
+        </p>
+        <div className="flex  justify-around items-center sm:hidden ">
+          <p className="border-[3px] border-primaryText rounded-full p-4">
+            <a href="https://www.facebook.com/technacysystems">
+              <FaFacebookF />
+            </a>
           </p>
+          <p className="border-[3px] border-primaryText rounded-full p-4">
+            <a href="https://t.me/mehretugonche">
+              <FaTelegramPlane />
+            </a>
+          </p>
+          <p className="border-[3px] border-primaryText rounded-full p-4">
+            <a href="https://www.linkedin.com/in/mehretugonche">
+              <FaLinkedinIn />
+            </a>
+          </p>
+        </div>
+        <div className=" flex items-center justify-center py-4">
+          <button className=" bg-primaryText h-12 w-auto  rounded-2xl flex justify-center items-center text-[#fff] text-[18px] p-4">
+            <p>let's talk about your project</p>
+          </button>
         </div>
       </div>
     </div>

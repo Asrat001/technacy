@@ -4,11 +4,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 
 function Blog() {
-  useEffect(() => {
-  
-    Aos.init({duration:2000})
-      
-    }, [])
+ 
   return (
     <div className="  h-auto p-4  sm:p-10 bg-primary">
       <h1 className="text-[25px] text-center sm:text-[35px] text-primaryText sm:py-3 font-semibold">
