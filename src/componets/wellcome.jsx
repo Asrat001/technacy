@@ -12,7 +12,7 @@ function Wellcome() {
   }, []);
 
   return (
-    <div className="sm:p-10 p-5  h-auto  ">
+    <div className="sm:p-10 p-5  h-auto  " id="about">
       <div data-aos="flip-down">
         <h1 className="text-[15px] text-center sm:text-[35px] text-primaryText sm:py-3 font-semibold">
           Wellcome to Technacy

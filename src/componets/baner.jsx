@@ -4,6 +4,7 @@ import tech from "../assets/tech.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 function Baner() {
   return (
@@ -52,7 +53,7 @@ function Baner() {
         </div>
         <div className=" flex items-center justify-center py-4">
           <button className=" bg-primaryText h-12 w-auto  rounded-2xl flex justify-center items-center text-[#fff] text-[18px] p-4">
-            <p>let's talk about your project</p>
+          <Link to='contact' offset={-150} spy={true} duration={500} smooth={true}>lets's talk about your project</Link>
           </button>
         </div>
       </div>

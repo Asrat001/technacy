@@ -3,7 +3,7 @@ import { ImLocation2 } from "react-icons/im";
 
 function Contact() {
   return (
-    <div className="sm:p-10 h-auto my-8">
+    <div className="sm:p-10 h-auto my-8" id="contact">
       <h1 className=" text-center text-[18px] font-semibold  text-primaryText sm:text-[35px]">
         Contact us
       </h1>

@@ -8,6 +8,7 @@ import Techno from './techno'
 import Blog from './blog'
 import Contact from './contact'
 import Footer from './footer'
+import Empity from './empity'
 
 function LandingPage() {
   return (
@@ -19,6 +20,7 @@ function LandingPage() {
 <Service/>
 <Img/>
 <Techno/>
+<Empity/>
 <Blog/>
 <Contact/>
 <Footer/>

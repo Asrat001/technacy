@@ -14,7 +14,7 @@ function Service() {
   }, [])
   
   return (
-    <div className=" h-auto  sm:h-auto  bg-primary p-3 " >
+    <div className=" h-auto  sm:h-auto  bg-primary p-3 " id="service" >
     <h1 className=" text-[18px] text-center sm:text-[35px] text-primaryText sm:py-3 font-semibold">
         Services
       </h1>

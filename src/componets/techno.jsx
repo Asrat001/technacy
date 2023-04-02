@@ -11,7 +11,7 @@ import java from "../assets/java.png";
 
 function Techno() {
   return (
-    <div className=" sm:p-20 bg-primary h-auto mt-16 p-2">
+    <div className=" sm:p-20 bg-primary h-auto mt-16 p-2" id="techno">
       <h1 className="text-[15px] text-center sm:text-[35px] text-primaryText py-2 sm:py-3 font-semibold">
         Technology Stack
       </h1>

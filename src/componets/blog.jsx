@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 function Blog() {
  
   return (
-    <div className="  h-auto p-4  sm:p-10 bg-primary">
+    <div className="  h-auto p-4  sm:p-10 bg-primary " id="blog">
       <h1 className="text-[25px] text-center sm:text-[35px] text-primaryText sm:py-3 font-semibold">
         our leatest blog
       </h1>

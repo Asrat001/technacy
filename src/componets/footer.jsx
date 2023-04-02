@@ -9,11 +9,11 @@ import {FaRegCopyright} from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="bg-primary h-auto sm:px-10 py-4">
+    <div className="bg-primary h-auto sm:px-10 py-4" id="foot">
       <div className="flex gap-4  sm:justify-between justify-center">
         <div>
-          <h1 className=" text-[20px] text-primaryText text-center">
-            our socials
+          <h1 className=" text-[20px] text-primaryText text-center py-3 ">
+           <span className=" font-semibold">order us on </span> <br/>any of our social media platforms
           </h1>
           <div className="flex flex-col gap-3">
             <a
