@@ -10,7 +10,7 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className='  bg-primary text-primaryText w-full h-24 fixed flex justify-between sm:p-10 p-6 items-center  top-0 left-0'>
+    <div className='   bg-primary text-primaryText w-full h-24 fixed flex justify-between sm:p-10 p-6 items-center  top-0 left-0  z-50'>
       {/* logo */ }
       <div className=''>
         <img src={logo} className="w-44 h-44"/>
