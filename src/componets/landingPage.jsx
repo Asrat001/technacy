@@ -14,6 +14,7 @@ function LandingPage() {
   return (
     <div
     className=' '>
+   
 <Navbar/>
 <Baner/>
 <Wellcome/>
@@ -23,6 +24,7 @@ function LandingPage() {
 <Empity/>
 <Blog/>
 <Contact/>
+
 <Footer/>
 
 
