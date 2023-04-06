@@ -18,10 +18,10 @@ function Baner() {
         <span className=" text-[19px]  sm:text-[35px] text-[#03303b] font-semibold ">
           <Typewriter
             words={[
-              "Inovative Techenology",
-              "App Developement",
-              "Website Developemt",
-              "ERP Developemnt",
+              "Innovative technology",
+              "App Development",
+              "Website Development",
+              "ERP Development",
             ]}
             loop={10}
             cursor
@@ -53,7 +53,7 @@ function Baner() {
         </div>
         <div className=" flex items-center justify-center py-4">
           <button className=" bg-primaryText h-12 w-auto  rounded-2xl flex justify-center items-center text-[#fff] text-[18px] p-4">
-          <Link to='contact' offset={-150} spy={true} duration={500} smooth={true}>lets's talk about your project</Link>
+          <Link to='contact' offset={-150} spy={true} duration={500} smooth={true}>let's talk about your project</Link>
           </button>
         </div>
       </div>
