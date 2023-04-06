@@ -9,7 +9,7 @@ function Blog() {
     <div className=" h-auto p-4  sm:p-10  " id="blog">
  
       <h1 className="text-[25px] text-center sm:text-[35px] text-primaryText sm:py-3 font-semibold">
-        our leatest blog
+        our latest blog
       </h1>
       <div className="flex justify-center items-center py-4">
         <div className=" w-full sm:w-[400px] h-1 bg-primaryText flex justify-center items-center  ">
